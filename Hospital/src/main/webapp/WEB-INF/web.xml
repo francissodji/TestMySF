@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>GetRaceController</servlet-name>
+  	<display-name>GetRaceController</display-name>
+  	<description></description>
+  	<servlet-class>com.hospital.controller.GetRaceController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GetPatientController</servlet-name>
+  	<display-name>GetPatientController</display-name>
+  	<description></description>
+  	<servlet-class>com.hospital.controller.GetPatientController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetRaceController</servlet-name>
+  	<url-pattern>/GetRace</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetPatientController</servlet-name>
+  	<url-pattern>/GetPatient</url-pattern>
+  </servlet-mapping>
+</web-app>
